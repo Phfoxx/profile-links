@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabn:ital,wght@0,400..700;1,400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "figtree", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: bisque;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+.card {
+    display: flex;
+    flex-direction: column; 
+    width: 350px;
+    height: 540px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px black;
+
+
+}
+
+.img-curso {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.img-curso img {
+    padding: 1.2rem 0;
+    width: 70%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.text {
+    width: 100%;
+    margin-left: 0.5rem;
+}
+
+h3 {
+    width: 20%;
+    background-color: #5BA3EB;
+    padding: 0.3rem 0.8rem;
+    font-size: 12px;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.conclusion {
+    font-size: 12px;
+    color: #333;
+    margin: 0.5rem 0rem;
+    font-weight: 300;
+    font-style: light;
+}
+
+h2 {
+    font-weight: 700;
+    font-style: bold;
+    font-size: 16px;
+    color: #333;
+    padding: 0.5rem 0;
+}
+
+.description {
+    width: 95%;
+    font-size: 14px;
+    color: #333;
+}
+
+
+.institution {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 200px;
+    font-weight: 700;
+    font-style: bold;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+
+
+
+.institution img {
+    width: 10%;
+    border-radius: 50%;
+    height: auto;
+    margin-left: 0.5rem;
+    margin-right: 0.8rem;
+}
